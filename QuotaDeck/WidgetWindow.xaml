@@ -1,0 +1,54 @@
+<Window x:Class="QuotaDeck.WidgetWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AI Usage"
+        WindowStyle="None"
+        AllowsTransparency="True"
+        Background="Transparent"
+        SizeToContent="WidthAndHeight"
+        ShowInTaskbar="False"
+        ResizeMode="NoResize"
+        Topmost="True"
+        FontFamily="Segoe UI Variable Display, Malgun Gothic, Segoe UI">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <!-- Theme overlay (character + railing). ZIndex keeps its overlapping
+             bottom edge drawn ON TOP of the panel; the bottom margin is set
+             per-theme in SyncThemeLayout from OverlayOverlapPx. -->
+        <Image x:Name="OverlayImage"
+               Grid.Row="0"
+               Panel.ZIndex="10"
+               Stretch="Uniform"
+               HorizontalAlignment="Left"
+               Margin="0,0,0,-1"
+               RenderOptions.BitmapScalingMode="HighQuality"
+               Visibility="Collapsed"/>
+        <!-- Left-anchored so the panel always sizes to its content and can
+             never be stretched by the overlay image above it. -->
+        <Grid Grid.Row="1" HorizontalAlignment="Left">
+            <!-- 9-slice image skin behind the content (theme-dependent).
+                 Explicitly sized from RootBorder so its bitmaps never
+                 contribute their natural size to layout. -->
+            <Grid x:Name="PanelSkin" Visibility="Collapsed"
+                  HorizontalAlignment="Left" VerticalAlignment="Top"/>
+            <!-- Left/Top-anchored so it always sizes to its content; otherwise
+                 the panel skin's provisional startup size becomes a floor the
+                 border stretches to, inflating the bottom gap. -->
+            <Border x:Name="RootBorder"
+                    HorizontalAlignment="Left"
+                    VerticalAlignment="Top"
+                    CornerRadius="14"
+                    BorderThickness="1"
+                    Padding="24,12,24,15"
+                    BorderBrush="#26FFFFFF">
+                <Border.Background>
+                    <SolidColorBrush Color="#0F1218"/>
+                </Border.Background>
+                <StackPanel x:Name="RootPanel"/>
+            </Border>
+        </Grid>
+    </Grid>
+</Window>

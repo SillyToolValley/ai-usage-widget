@@ -1,0 +1,20 @@
+bin/
+obj/
+*.user
+.vs/
+.runtime/
+
+# Local-only authoring pipeline. Runtime packs and README previews are exported
+# into their public directories, but pipeline sources never leave this machine.
+codex_animated_widget_pipeline_windows/
+
+# Local intermediate Bourbon runtime exports; only the current v13 pack ships.
+QuotaDeck/Assets/mihono_bourbon_chocolate_patisserie_*_v4*.png
+QuotaDeck/Assets/mihono_bourbon_chocolate_patisserie_*_v5*.png
+QuotaDeck/Assets/mihono_bourbon_chocolate_patisserie_*_v6*.png
+QuotaDeck/Assets/mihono_bourbon_chocolate_patisserie_*_v7*.png
+QuotaDeck/Assets/mihono_bourbon_chocolate_patisserie_*_v8*.png
+QuotaDeck/Assets/mihono_bourbon_chocolate_patisserie_*_v9*.png
+QuotaDeck/Assets/mihono_bourbon_chocolate_patisserie_*_v10*.png
+QuotaDeck/Assets/mihono_bourbon_chocolate_patisserie_*_v11*.png
+QuotaDeck/Assets/mihono_bourbon_chocolate_patisserie_*_v12*.png

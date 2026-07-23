@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>QuotaDeck</RootNamespace>
+    <AssemblyName>QuotaDeck</AssemblyName>
+    <Product>AI Usage</Product>
+    <AssemblyTitle>AI Usage</AssemblyTitle>
+    <Version>1.0.0</Version>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Using Remove="System.Windows.Forms" />
+    <Using Remove="System.Drawing" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\**\*.png" />
+    <EmbeddedResource Include="Assets\overlay_themes.json"
+                      LogicalName="QuotaDeck.Assets.overlay_themes.json" />
+  </ItemGroup>
+
+</Project>

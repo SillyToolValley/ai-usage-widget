@@ -1,0 +1,482 @@
+{
+  "schema_version": 1,
+  "purpose": "README theme gallery generated from current QuotaDeck runtime assets",
+  "preview_width": 320,
+  "encoding": {
+    "format": "GIF",
+    "shared_palette_per_theme": true,
+    "dither": "none",
+    "transparency_index": 255,
+    "alpha_threshold": 96,
+    "color_authority": "QuotaDeck runtime PNG assets"
+  },
+  "themes": [
+    {
+      "id": "default",
+      "display_name": "Default",
+      "category": "General",
+      "file": "default.gif",
+      "sha256": "a0c5407104f2b123e4bdcaa7412d2845dc6e7f06de2b1b21dfec963f5cfb6149",
+      "bytes": 13680,
+      "size": [
+        320,
+        202
+      ],
+      "runtime_frame_count": 1,
+      "encoded_frame_count": 1,
+      "requested_frame_duration_ms": 125,
+      "encoded_total_duration_ms": 120,
+      "loop": true,
+      "source": {
+        "image": {
+          "path": "docs/widget-default.png",
+          "sha256": "0ca7a96cab73c98c2d2491e162ff531a0e8ff287f97612fa835ff950184965b0",
+          "size": [
+            301,
+            190
+          ]
+        }
+      }
+    },
+    {
+      "id": "miku",
+      "display_name": "Hatsune Miku",
+      "category": "VOCALOID",
+      "file": "miku.gif",
+      "sha256": "609b7bcdff8472c317178cb2fee5890020b472770f5153386ff1a4e10e35262f",
+      "bytes": 705944,
+      "size": [
+        320,
+        209
+      ],
+      "runtime_frame_count": 32,
+      "encoded_frame_count": 32,
+      "requested_frame_duration_ms": 125,
+      "encoded_total_duration_ms": 3840,
+      "loop": true,
+      "source": {
+        "sheet": {
+          "path": "QuotaDeck/Assets/miku_digital_concert_top_overlay_32f_v2.png",
+          "sha256": "d056a5fc65c9bb6da456349a6c7955a59e4fe00fff67b62eadfaba7e4fc92a9f",
+          "size": [
+            12288,
+            2152
+          ]
+        },
+        "panel": {
+          "path": "QuotaDeck/Assets/miku_digital_concert_panel_base_v2_9slice.png",
+          "sha256": "a5f62e17073e2ddd523b8caf42757c83d5c86e019a4107b84c5c3c823c2924ca",
+          "size": [
+            1536,
+            466
+          ]
+        },
+        "runtime_frame_size": [
+          1536,
+          538
+        ],
+        "overlay_overlap_px": 1
+      }
+    },
+    {
+      "id": "violet",
+      "display_name": "Violet",
+      "category": "Violet Evergarden",
+      "file": "violet.gif",
+      "sha256": "f2572006e328407a0239c3c221df5039fa0873074acacbb4c76e4adb201a9b2d",
+      "bytes": 604841,
+      "size": [
+        320,
+        250
+      ],
+      "runtime_frame_count": 24,
+      "encoded_frame_count": 24,
+      "requested_frame_duration_ms": 125,
+      "encoded_total_duration_ms": 2880,
+      "loop": true,
+      "source": {
+        "sheet": {
+          "path": "QuotaDeck/Assets/violet_evergarden_top_overlay_24f_v5.png",
+          "sha256": "e4011c8dbfb6762a665279c64e285679db2c10e91f8b7cddf556c6fc5fa1d272",
+          "size": [
+            10288,
+            1482
+          ]
+        },
+        "panel": {
+          "path": "QuotaDeck/Assets/violet_evergarden_panel_base_v5.png",
+          "sha256": "fc2b740357a14496a2d8861aec575430f69b7e215ab17c86b7931ffcc6c9b1e2",
+          "size": [
+            1286,
+            513
+          ]
+        },
+        "runtime_frame_size": [
+          1286,
+          494
+        ],
+        "overlay_overlap_px": 1
+      }
+    },
+    {
+      "id": "anya",
+      "display_name": "Anya & Bond",
+      "category": "SPY×FAMILY",
+      "file": "anya.gif",
+      "sha256": "75745535e9a07f1d4616adc7ef45276672b70eb048d8ff4037791f78bf55d3f0",
+      "bytes": 494576,
+      "size": [
+        320,
+        215
+      ],
+      "runtime_frame_count": 24,
+      "encoded_frame_count": 24,
+      "requested_frame_duration_ms": 125,
+      "encoded_total_duration_ms": 2880,
+      "loop": true,
+      "source": {
+        "sheet": {
+          "path": "QuotaDeck/Assets/anya_bond_top_overlay_24f.png",
+          "sha256": "53c4011b3b738aa3d2233110063de1b56ae95dc88b1c877feed1214e8b55e79e",
+          "size": [
+            11984,
+            1215
+          ]
+        },
+        "panel": {
+          "path": "QuotaDeck/Assets/anya_bond_panel_base.png",
+          "sha256": "0dc21b11c3a5d0c6fd3b30b00d7e211a61fbedef06f8427b05498671234fdbf0",
+          "size": [
+            1498,
+            608
+          ]
+        },
+        "runtime_frame_size": [
+          1498,
+          405
+        ],
+        "overlay_overlap_px": 8
+      }
+    },
+    {
+      "id": "kagura",
+      "display_name": "Kagura",
+      "category": "Gintama",
+      "file": "kagura.gif",
+      "sha256": "9f6de7f5d471e25db0756a0bf5177d400f6bfeec28a63803ffcefe0c4aefc589",
+      "bytes": 490242,
+      "size": [
+        320,
+        215
+      ],
+      "runtime_frame_count": 24,
+      "encoded_frame_count": 24,
+      "requested_frame_duration_ms": 125,
+      "encoded_total_duration_ms": 2880,
+      "loop": true,
+      "source": {
+        "sheet": {
+          "path": "QuotaDeck/Assets/kagura_top_overlay_24f.png",
+          "sha256": "dfc9d831e4e73c37e9e6db5ffe91bdea3e6848714c04c0f1220a8f1c0ccb9ff7",
+          "size": [
+            11984,
+            1500
+          ]
+        },
+        "panel": {
+          "path": "QuotaDeck/Assets/kagura_panel_base_9slice.png",
+          "sha256": "ec55346570b52c7ed3cbcbe2983910cea5d0431da2d2c42667d241e120fff5e5",
+          "size": [
+            1498,
+            548
+          ]
+        },
+        "runtime_frame_size": [
+          1498,
+          500
+        ],
+        "overlay_overlap_px": 43
+      }
+    },
+    {
+      "id": "elizabeth",
+      "display_name": "Elizabeth",
+      "category": "Gintama",
+      "file": "elizabeth.gif",
+      "sha256": "4251bc78b5abfb0de664d65bd90cdaae1e388ba3c1a808ab74b77672ae8e71a2",
+      "bytes": 104554,
+      "size": [
+        320,
+        213
+      ],
+      "runtime_frame_count": 24,
+      "encoded_frame_count": 5,
+      "requested_frame_duration_ms": 125,
+      "encoded_total_duration_ms": 2990,
+      "loop": true,
+      "source": {
+        "sheet": {
+          "path": "QuotaDeck/Assets/elizabeth_top_overlay_24f.png",
+          "sha256": "4d8ecb047edcaaab65cb66a4e70253abfa62aaa4bf7096c990405e11fe30baa9",
+          "size": [
+            12288,
+            1500
+          ]
+        },
+        "panel": {
+          "path": "QuotaDeck/Assets/elizabeth_panel_base_9slice.png",
+          "sha256": "271b785aef8e0c4afcc4aeb784a887db82787a28f4a8c63fda895706a9b63aa3",
+          "size": [
+            1536,
+            529
+          ]
+        },
+        "runtime_frame_size": [
+          1536,
+          500
+        ],
+        "overlay_overlap_px": 5
+      }
+    },
+    {
+      "id": "bourbon",
+      "display_name": "Bourbon (Valentine)",
+      "category": "Umamusume: Pretty Derby",
+      "file": "bourbon.gif",
+      "sha256": "38c81242bedcaba1b058a0c2b3b511efca9688cd2f9a90c916f1b69a4344fa2d",
+      "bytes": 787705,
+      "size": [
+        320,
+        210
+      ],
+      "runtime_frame_count": 32,
+      "encoded_frame_count": 32,
+      "requested_frame_duration_ms": 125,
+      "encoded_total_duration_ms": 3840,
+      "loop": true,
+      "source": {
+        "sheet": {
+          "path": "QuotaDeck/Assets/mihono_bourbon_chocolate_patisserie_top_overlay_32f_v13.png",
+          "sha256": "1304a2f4e1b627a94b9060b68ba8b7b15391c3eb47186f854cecbe240fd82737",
+          "size": [
+            12288,
+            2256
+          ]
+        },
+        "panel": {
+          "path": "QuotaDeck/Assets/mihono_bourbon_chocolate_patisserie_panel_base_v13_9slice.png",
+          "sha256": "88eb22c259a4d850c629eb7fd3029f50bcbeb067aae1d004b20df10be9f125d7",
+          "size": [
+            1536,
+            447
+          ]
+        },
+        "runtime_frame_size": [
+          1536,
+          564
+        ],
+        "overlay_overlap_px": 1
+      }
+    },
+    {
+      "id": "rice_shower",
+      "display_name": "Rice Shower (Halloween)",
+      "category": "Umamusume: Pretty Derby",
+      "file": "rice-shower.gif",
+      "sha256": "0249cd059d620c14f97ba76b445c20ee61ad7b21c70caf90001fef8dbf9aebb9",
+      "bytes": 731587,
+      "size": [
+        320,
+        208
+      ],
+      "runtime_frame_count": 32,
+      "encoded_frame_count": 32,
+      "requested_frame_duration_ms": 125,
+      "encoded_total_duration_ms": 3840,
+      "loop": true,
+      "source": {
+        "sheet": {
+          "path": "QuotaDeck/Assets/rice_shower_halloween_top_overlay_32f.png",
+          "sha256": "6bca4ca4e9990ac58279f476b5502bd121c66b7f7ca0a005a139245f2d788d18",
+          "size": [
+            12288,
+            2172
+          ]
+        },
+        "panel": {
+          "path": "QuotaDeck/Assets/rice_shower_halloween_panel_base_9slice.png",
+          "sha256": "0da9f79893b66f5981fa9a6a4a82b928587368ebd26821678383f0f470d30714",
+          "size": [
+            1536,
+            458
+          ]
+        },
+        "runtime_frame_size": [
+          1536,
+          543
+        ],
+        "overlay_overlap_px": 1
+      }
+    },
+    {
+      "id": "oguri_cap_xmas",
+      "display_name": "Oguri Cap (Christmas)",
+      "category": "Umamusume: Pretty Derby",
+      "file": "oguri-cap-xmas.gif",
+      "sha256": "d075e5e7d60363c7ec93d7e1645573fceaea36dcb88be54633ea9e92b4021dce",
+      "bytes": 763313,
+      "size": [
+        320,
+        212
+      ],
+      "runtime_frame_count": 32,
+      "encoded_frame_count": 32,
+      "requested_frame_duration_ms": 125,
+      "encoded_total_duration_ms": 3840,
+      "loop": true,
+      "source": {
+        "sheet": {
+          "path": "QuotaDeck/Assets/oguri_cap_christmas_banquet_top_overlay_32f.png",
+          "sha256": "4d996ec46a28abd8a148defff20f6534e8da921bd7ca43e57de07d8eb79415cd",
+          "size": [
+            12288,
+            2324
+          ]
+        },
+        "panel": {
+          "path": "QuotaDeck/Assets/oguri_cap_christmas_banquet_panel_base_9slice.png",
+          "sha256": "b229303c9d0f199d19874c7d0d52d90e452d7021af3678d7c1970fd0a6db2c76",
+          "size": [
+            1536,
+            436
+          ]
+        },
+        "runtime_frame_size": [
+          1536,
+          581
+        ],
+        "overlay_overlap_px": 1
+      }
+    },
+    {
+      "id": "nice_nature_cheer",
+      "display_name": "Nice Nature (RUN&WIN)",
+      "category": "Umamusume: Pretty Derby",
+      "file": "nice-nature-cheer.gif",
+      "sha256": "8b83135b6ea042ed89f18d4c7d489946afdb8a9f17db552cc2ede02341302ad6",
+      "bytes": 655703,
+      "size": [
+        320,
+        212
+      ],
+      "runtime_frame_count": 32,
+      "encoded_frame_count": 32,
+      "requested_frame_duration_ms": 125,
+      "encoded_total_duration_ms": 3840,
+      "loop": true,
+      "source": {
+        "sheet": {
+          "path": "QuotaDeck/Assets/nice_nature_run_and_win_top_overlay_32f.png",
+          "sha256": "59c6f7b1885a587aaf3f2cbaca382bc79f45f48c90d2df93e01054a6ccfcf471",
+          "size": [
+            12288,
+            2444
+          ]
+        },
+        "panel": {
+          "path": "QuotaDeck/Assets/nice_nature_run_and_win_panel_base_9slice.png",
+          "sha256": "23b8dca76721718e01a77be1ea9a6160e4c78a3e854231a30572e4e04a3cb638",
+          "size": [
+            1536,
+            409
+          ]
+        },
+        "runtime_frame_size": [
+          1536,
+          611
+        ],
+        "overlay_overlap_px": 1
+      }
+    },
+    {
+      "id": "maruzensky_summer_night",
+      "display_name": "Maruzensky (Summer Night)",
+      "category": "Umamusume: Pretty Derby",
+      "file": "maruzensky-summer-night.gif",
+      "sha256": "cb5269555eca6ce21f85160ffe41016b9a856c571878c2cb2a4bb43d847e46cc",
+      "bytes": 820897,
+      "size": [
+        320,
+        210
+      ],
+      "runtime_frame_count": 32,
+      "encoded_frame_count": 32,
+      "requested_frame_duration_ms": 125,
+      "encoded_total_duration_ms": 3840,
+      "loop": true,
+      "source": {
+        "sheet": {
+          "path": "QuotaDeck/Assets/maruzensky_summer_night_top_overlay_32f.png",
+          "sha256": "3972d791894705ae58f4a6ea360bd2a2706bb1cb3396b47fee597242d4f1054b",
+          "size": [
+            12288,
+            2216
+          ]
+        },
+        "panel": {
+          "path": "QuotaDeck/Assets/maruzensky_summer_night_panel_base_9slice.png",
+          "sha256": "5bb04c2fa069973cabb0d177c1148c26ae700537397536cc9db101929c283166",
+          "size": [
+            1536,
+            454
+          ]
+        },
+        "runtime_frame_size": [
+          1536,
+          554
+        ],
+        "overlay_overlap_px": 1
+      }
+    },
+    {
+      "id": "curren_chan_wedding",
+      "display_name": "Curren Chan (Wedding)",
+      "category": "Umamusume: Pretty Derby",
+      "file": "curren-chan-wedding.gif",
+      "sha256": "c248a510ad7a53e26b6f4085a92d60d1991cbe1b107d2db611e9a7f7d82f4f55",
+      "bytes": 845676,
+      "size": [
+        320,
+        211
+      ],
+      "runtime_frame_count": 32,
+      "encoded_frame_count": 32,
+      "requested_frame_duration_ms": 125,
+      "encoded_total_duration_ms": 3840,
+      "loop": true,
+      "source": {
+        "sheet": {
+          "path": "QuotaDeck/Assets/curren_chan_wedding_top_overlay_32f.png",
+          "sha256": "65cdc1c408181f7e997fa6f15ba4c68facc67fc89973e4dcfbd0c88c6e8f9033",
+          "size": [
+            12288,
+            2596
+          ]
+        },
+        "panel": {
+          "path": "QuotaDeck/Assets/curren_chan_wedding_panel_base_9slice.png",
+          "sha256": "1a27725fc035c5ca1ee9a13ececef65b9d25d0bc346aa123a87cdae71cbe44cc",
+          "size": [
+            1536,
+            367
+          ]
+        },
+        "runtime_frame_size": [
+          1536,
+          649
+        ],
+        "overlay_overlap_px": 1
+      }
+    }
+  ]
+}

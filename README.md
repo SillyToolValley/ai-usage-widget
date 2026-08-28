@@ -100,7 +100,7 @@ from Settings. The picker and this gallery use the same character groups.
   </tr>
 </table>
 
-<sub>Gallery animations are rebuilt from the current runtime theme packs; source and output hashes are recorded in <a href="docs/theme-gifs/manifest.json">the gallery manifest</a>.</sub>
+<sub>Every tile is the widget itself, showing the same sample readout under each theme's frame and animation. The gallery is rebuilt from the current runtime theme packs; source and output hashes are recorded in <a href="docs/theme-gifs/manifest.json">the gallery manifest</a>.</sub>
 
 </div>
 
